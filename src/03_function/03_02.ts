@@ -1,4 +1,4 @@
-import {CityType, GovernmentBuildingsType, HouseType} from "../02/02";
+import {CityType, GovernmentBuildingsType, HouseType} from "../02_objects/02";
 
 export const addMoneyBudget = (building: GovernmentBuildingsType, num: number) => {
     building.budget += num;

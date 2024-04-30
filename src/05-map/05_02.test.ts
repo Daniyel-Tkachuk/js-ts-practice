@@ -1,4 +1,4 @@
-import {CityType} from "../02/02";
+import {CityType} from "../02_objects/02";
 import {createMessages, getStreetsTitlesOfGovernmentBuildings, getStreetsTitlesOfHouses} from "./05_02";
 
 let city: CityType;
