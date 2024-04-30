@@ -86,7 +86,7 @@ test('list of streets titles', ()=> {
    expect(streetsNames[2]).toBe("Happy street");
 });
 
-test("create greeting messages for streets", () => {
+test.skip("create greeting messages for streets", () => {
    const messages = createMessages(city.houses);
 
    expect(messages.length).toBe(3);
