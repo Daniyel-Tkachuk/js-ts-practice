@@ -48,7 +48,6 @@ test("reference type test", () => {
       }
    };
 
-   // let addr = user.address;
 
    let user2: NewUserType = {
       name: "Daniyel",
